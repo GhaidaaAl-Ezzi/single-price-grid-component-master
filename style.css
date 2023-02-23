@@ -1,0 +1,268 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+  :root{
+    
+
+
+    /*Primary*/
+
+--Cyan: hsl(179, 62%, 43%);
+--Bright-Yellow: hsl(71, 73%, 54%);
+
+/*Neutral*/
+
+--Light-Gray: hsl(204, 43%, 93%);
+--Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+
+@media  screen and (min-width:375px) {
+    body{
+        background-color: var(--Light-Gray);
+        font-size: 1em;
+        font-family: 'Karla', sans-serif;
+        margin: 30em;
+
+    }
+p{
+    font-size: 0.9em;
+}
+
+
+    .section1 {
+        display:flex;
+      justify-content: center;
+      align-items: center;
+      text-align: left;
+
+    }
+    
+    .Join-us{
+        background-color: white;
+        padding: 1em;
+        border-radius: 1em 1em 0em 0em;
+        margin: 1em;
+
+
+    }
+
+    .section1 h2{
+color: var(--Cyan);
+    }
+
+    .section1 h3{
+        color: var(--Bright-Yellow);
+            }
+            .section1 p {
+                color:var(--Grayish-Blue);
+            }
+    .section2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 1em;
+        margin-top: -1em;
+
+
+    }
+    .section2 h2{
+        color:var(--Light-Gray);
+        margin: 0em;
+        padding: 1em;
+    }
+    .section2 h3{
+        color:var(--Light-Gray); 
+margin:0em;         
+padding: 1em;
+
+
+    }
+    .section2 p{
+        color:var(--Light-Gray);
+        margin-left:1em;
+    }
+    .Subscription{
+        background-color: var(--Cyan);
+        height: 15em;
+        width:40em;
+        padding: 1em;
+        border-radius: 0em 0em 0em 1em ;
+
+        
+
+    }
+    .price-container{
+        display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+gap:0.5em;
+
+
+
+   }
+   .price-container h2{
+font-size:2em;
+padding:0 ;
+
+
+}
+   .price-container p{
+    opacity: 50%;
+    padding: 0;
+
+   }
+   .button{
+    background-color: var(--Bright-Yellow);
+    color: white;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:0;
+    padding-right:0;
+    border-radius: 0.5em;
+    margin:1em;
+    margin-top:2em;
+
+
+   }
+   .button:hover{
+    background-color: var(--Light-Gray);
+    color:var(--Grayish-Blue);
+   }
+    .Why-us{
+        background-color: hsla(179, 62%, 43%, 0.705);
+        height:15em;
+        width:40em;
+        padding: 1em;
+        border-radius: 0em 0em 1em 0em ;
+
+
+    }
+}
+
+@media screen and (max-width:1440px){
+    body{
+        background-color: var(--Light-Gray);
+        font-size: 1em;
+        font-family: 'Karla', sans-serif;
+        margin: 1em;
+
+    }
+p{
+    font-size: 1em;
+}
+
+    .section1 {
+        display: block;
+        align-items: center;
+      text-align: left;
+
+    }
+    .Join-us{
+        background-color: white;
+        padding: 1em;
+        border-radius: 1em 1em 0em 0em;
+        margin: 1em;
+        width:20em;
+
+
+    }
+
+    .section1 h2{
+color: var(--Cyan);
+    }
+
+    .section1 h3{
+        color: var(--Bright-Yellow);
+            }
+            .section1 p {
+                color:var(--Grayish-Blue);
+            }
+    .section2{
+    display: block;
+        margin: 1em;
+        margin-top: -1em;
+
+
+    }
+    .section2 h2{
+        color:var(--Light-Gray);
+        margin: 0em;
+        padding: 1em;
+    }
+    .section2 h3{
+        color:var(--Light-Gray); 
+margin:0em;         
+padding: 1em;
+
+
+    }
+    .section2 p{
+        color:var(--Light-Gray);
+        margin-left:1em;
+    }
+    .Subscription{
+        background-color: var(--Cyan);
+        height: 15em;
+        width:20em;
+        padding: 1em;
+        border-radius: 0;
+
+    
+    }
+    .price-container{
+        display: flex;
+justify-content: center;
+align-items: center;
+text-align: left;
+gap:0.5em;
+
+
+
+   }
+   .price-container h2{
+font-size:2em;
+padding:0 ;
+
+
+}
+   .price-container p{
+    opacity: 50%;
+    padding: 0;
+
+   }
+   .button{
+    background-color: var(--Bright-Yellow);
+    color: white;
+    text-align: center;
+    padding-top:1em;
+    padding-bottom:1em;
+    padding-left:0;
+    padding-right:0;
+    border-radius: 0.5em;
+    margin:4em;
+    margin-top:2em;
+
+
+   }
+   .button:hover{
+    background-color: var(--Light-Gray);
+    color:var(--Grayish-Blue);
+   }
+    .Why-us{
+        background-color: hsla(179, 62%, 43%, 0.705);
+        height:15em;
+        width:20em;
+        padding: 1em;
+        border-radius: 0em 0em 1em 1em ;
+
+
+    }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+}
